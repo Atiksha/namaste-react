@@ -1,10 +1,19 @@
 Lecture :1
 ---------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------
+Shotcuts
+------------
+Command + option + J        -> Developer Mode in Chrome
+CMD + Shift + P             -> Format Document
+
+
 
 Formatter
 ------------
 Add Extension "Prettier - Code formatter"
+Add Extension "Bracket Pair Colorization Toggler"
+
+
 
 
 Install Node
@@ -12,6 +21,8 @@ Install Node
 node -v
 brew install node
 npm -v
+
+
 
 
 Configure Project Using npm
@@ -24,6 +35,8 @@ npm install -D parcel     (for Dev dependency)
 npm install parcel     (for normal dependency)
 
 
+
+
 Lecture : 2
 ---------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------
@@ -31,6 +44,8 @@ ignite the app
 -----------------
 npx parcel index.html         (For developer build)
 npx parcel build index.html   (for prod build)
+
+
 
 
 install React
@@ -45,9 +60,15 @@ broswerList
 
 
 
+
+
 Lecture : 3
 ---------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------
+// To run the scripts present in the package.json <script>
+npm run start
+or
+npm start
 
-
+npm run build
 
