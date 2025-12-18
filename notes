@@ -1,2 +1,53 @@
-Shotcut:
-Cmd+Opt+J
+Lecture :1
+---------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+
+Formatter
+------------
+Add Extension "Prettier - Code formatter"
+
+
+Install Node
+-------------
+node -v
+brew install node
+npm -v
+
+
+Configure Project Using npm
+-----------------------------
+npm init -y
+Or
+npm init
+
+npm install -D parcel     (for Dev dependency)
+npm install parcel     (for normal dependency)
+
+
+Lecture : 2
+---------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+ignite the app
+-----------------
+npx parcel index.html         (For developer build)
+npx parcel build index.html   (for prod build)
+
+
+install React
+-----------------
+installing react throught the CDN link [https://legacy.reactjs.org/docs/cdn-links.html] is not preferrable (as we did in index5.html)
+
+npm install react
+npm i react-dom
+
+broswerList
+[https://browserslist.dev/?q=bGFzdCAyIHZlcnNpb25z]
+
+
+
+Lecture : 3
+---------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+
+
+

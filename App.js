@@ -1,3 +1,12 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+const heading1 = React.createElement(
+  "h1",
+  { id: "heading", xvz: "abc" },
+  "Hello World from React!!"
+);
+
 /**
  *  <div id="parent">
         <div id="child1">
@@ -10,12 +19,6 @@
         </div>
     </div>
  */
-
-const heading1 = React.createElement(
-  "h1",
-  { id: "heading", xvz: "abc" },
-  "Hello World from React!!"
-);
 
 const parent = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "child1" }, [
