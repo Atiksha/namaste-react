@@ -4,7 +4,11 @@ Lecture :1
 Shotcuts
 ------------
 Command + option + J        -> Developer Mode in Chrome
+Cmd+Option+U                -> source Code
 CMD + Shift + P             -> Format Document
+Shift + Option + A          -> Multiline Commments 
+Command + /                 -> Single Line Comment
+
 
 
 
@@ -71,4 +75,17 @@ or
 npm start
 
 npm run build
+
+-> Functional Component
+
+
+
+Lecture : 4
+---------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+-> Props
+
+install "json Viewer" plugin in chrome -> to see the code in developer mode 
+[https://chromewebstore.google.com/detail/json-viewer/aimiinbnnkboelefkjlenlgimcabobli?pli=1]
+
 
