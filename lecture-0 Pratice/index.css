@@ -1,0 +1,13 @@
+.styling {
+  text-align: center;
+  color: darkred;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button1 {
+  color: white;
+  background-color: #006dcc;
+}
+.button2 {
+  border-radius: 5px;
+  padding: 10px;
+}
