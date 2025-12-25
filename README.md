@@ -18,3 +18,22 @@
 - Https
 - Tree Shaking - remove unused code 
 - Different dev and Prod Bundles
+
+
+# Namste Food
+/**
+ * Header
+ *  - Logo
+ *  - Nav items
+ * Body
+ *  - Search
+ *  - Resturant Container
+ *      - Resturant Card
+ *        - Img
+ *        - Name of Res, Star Rating, Cusine. Delivery
+ *  Footer
+ *  - Copyright
+ *  - Links
+ *  - Address
+ *  - Contact
+ */

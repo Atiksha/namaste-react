@@ -89,3 +89,79 @@ install "json Viewer" plugin in chrome -> to see the code in developer mode
 [https://chromewebstore.google.com/detail/json-viewer/aimiinbnnkboelefkjlenlgimcabobli?pli=1]
 
 
+
+Lecture : 5
+---------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+-> Hooks
+
+Q - two types of export/import
+Default  export/import
+export default Component;
+Import Component from “path”
+
+Named export/import
+export const Component
+Import {Component} form “path”
+
+
+#React Hooks
+(Normal JS Utility Function)
+- useState() - superpowerful state Variables
+- useEffect()
+
+Whenever a state variable update, react re-render the components.
+
+Reconciliation Algorithm (React fiber - react16)
+virtual DOM(javaScript object representation) is the representation of actual DOM
+Read the Document : acdite link (https://github.com/acdlite/react-fiber-architecture)
+
+Why React is fast?
+Ans - Efficient DOM manipulation
+
+Q - Array Destructuring
+
+
+Lecture : 6
+---------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+-> Monolothic VS Microservices
+-> Seperation of Convern
+
+Approach 1
+App Loads --> API (wait for data tooks 500ms) --> Render (more lagging)
+
+Approach 2
+Loads --> Render(website skeleton) --> API (geys data tooks 500ms) --> Re-render (data with less Lagging)
+
+
+-> useEffect Hooks
+---------------------
+When the body function will render, useEffect will render it, as soon as it complete render it will call the callback function
+
+
+for CORS - add the extension in the chrom browser
+https://chromewebstore.google.com/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en&pli=1
+
+
+-> fetch POST call
+
+--> MOCK SERVER
+Open postman
+0. Create a ne wcollection (react)
+1. Add get request with swiggy URL
+2. save the response
+3. Create Mock SERVER with using "react" as a collection
+4. Create new request by appending the swiggy UR after Mock 
+    eg (https://c9a29fe6-e559-4e9c-a218-db404f8f049f.mock.pstmn.io/https://namastedev.com/api/v1/listRestaurants)
+
+
+Shimmer Using, Conditional Rendering
+Whenerver there is a change in state variable, react triggers a reconciliation cycle(re-render the component)
+--> react-fiber
+
+
+
+
+
+
