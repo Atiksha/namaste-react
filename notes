@@ -185,7 +185,6 @@ install Router -   npm i react-router-dom
 -> useRouteError
 -> Outlet
 
-
 never use Ancor tag with React, as it will load the whole page instead of re-rendering that part
 
 -> Link
@@ -194,4 +193,64 @@ never use Ancor tag with React, as it will load the whole page instead of re-ren
 Client Side Routing (React)
 Server Side Routing 
 
+
+Lecture : 7
+---------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+Class Base Component
+Q - why do we write super(props) ?
+Q -  create state variables
+
+never update state variable directly, use below method
+  this.setState({
+     ount: this.state.count + 1,
+     });
+        
+Life cycle Methods
+[ https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/ ]
+Q - Why componentDidMount() is use?
+Q - Render Pase vs Commit Phase
+Q - Why componentWillUnmount() is use?
+
+        Loading (mounting) - first constructor is called, then render is called
+  ---- mounting (cycle) ------
+      Constructor (with Dummy data)
+      Render (with Dummy data)
+          < HTML> (NEW API data)
+      ComponentDidMount()
+          <API Call>
+          <this.setState> -> State variable is udpated
+  ---- Update cycle ------   
+      render(API data)
+         <HMTL> (NEW API data)
+      componentDidUpdate()
+
+      
+
+  -- 1.With Multiple child 
+  - Parent Constructor
+  - Parent Render
+
+    - First Child Constructor
+    - First Child Render
+
+    - Second Child Constructor
+    - Second Child Render
+
+    (DOM UPDATE in Single BATCH for BOTH Children)
+    - First Child component Did Mount.  -> (to optimize commit Phase of first child is on HOLD )
+    - Second Child component Did Mount  -> (to optimize commit Phase of first child is on HOLD )
+  - Parent component Did Mount
+
+
+  -- 2. With API call
+  Parent Constructor
+  Parent Render
+    - First Child Constructor
+    - First Child Render
+  Parent component Did Mount
+  API Call
+    - First Child Render
+    - First child Component Did Update
+    - First Child Component Will Unmount (on chaning the current page)
 
