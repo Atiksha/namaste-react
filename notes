@@ -194,7 +194,7 @@ Client Side Routing (React)
 Server Side Routing 
 
 
-Lecture : 7
+Lecture : 8
 ---------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------
 Class Base Component
@@ -254,3 +254,16 @@ Q - Why componentWillUnmount() is use?
     - First child Component Did Update
     - First Child Component Will Unmount (on chaning the current page)
 
+Lecture : 9
+---------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+Custom Hooks - For SRP
+
+
+To checkOffline feature
+---------------------------
+DeveloperMode -> Network -> No throttling (chhose offline)
+Control + Command + Spacebar -> to open emoji keyboard
+
+Q - Chunking/ Code Splitting/ Dymanic Bundeling/ Lazy Loading/ On Demand Loading/ dynamic import
+Q - What is Lazy()
