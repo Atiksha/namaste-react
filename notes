@@ -267,3 +267,57 @@ Control + Command + Spacebar -> to open emoji keyboard
 
 Q - Chunking/ Code Splitting/ Dymanic Bundeling/ Lazy Loading/ On Demand Loading/ dynamic import
 Q - What is Lazy()
+
+Lecture : 10
+---------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+CSS
+  Sass and Scss
+  Style components [https://styled-components.com/]
+  Material UI [https://mui.com/material-ui/]
+  Bootstrap [https://getbootstrap.com/]
+  Chakra [https://chakra-ui.com/]
+  Ant Design [https://ant.design/]
+  TailwindCss [https://tailwindcss.com/]
+
+
+TailwindCss  
+
+npm uninstall tailwindcss @tailwindcss/cli
+npm install -D tailwindcss@3 postcss autoprefixer
+npx tailwindcss init -p
+
+-- Add below in tailwind.config file
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
+
+--delete postcss-config fil2 and create .postcssrc file
+{
+  plugins: {
+    tailwindcss: {
+    }
+  }
+}
+
+
+-- install plugin
+Tailwind CSS IntelliSense
+Control + Spacebar -> for suggestion
+
+-> pros 
+make develoment faster
+very light weight (minimum css)
+
+-> cons
+initial learnig curve
+sometimes make the code looks ugly
+
+
+
+

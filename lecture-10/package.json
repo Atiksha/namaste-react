@@ -1,0 +1,38 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "Namaste React Tutorial  by Akshay Saini",
+  "keywords": [],
+  "homepage": "https://github.com/Atiksha/namaste-react#readme",
+  "bugs": {
+    "url": "https://github.com/Atiksha/namaste-react/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atiksha/namaste-react.git"
+  },
+  "license": "ISC",
+  "author": "Atiksha Pundir",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.7",
+    "autoprefixer": "^10.4.23",
+    "parcel": "^2.16.3",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-router-dom": "^7.11.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
