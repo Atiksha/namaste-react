@@ -8,6 +8,7 @@ Cmd+Option+U                -> source Code
 CMD + Shift + P             -> Format Document
 Shift + Option + A          -> Multiline Commments 
 Command + /                 -> Single Line Comment
+Control + Command + Spacebar -> to open emoji keyboard
 
 
 
@@ -16,6 +17,7 @@ Formatter
 ------------
 Add Extension "Prettier - Code formatter"
 Add Extension "Bracket Pair Colorization Toggler"
+Add Extension "React Developer Tools"
 
 
 
@@ -320,4 +322,29 @@ sometimes make the code looks ugly
 
 
 
+
+Lecture : 11
+---------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+
+Higher Order Component - takes a component and return a component
+
+UI Layer dis powered by DataLayer
+Types of UI element
+--> Accordian
+--> 
+
+
+Q - Controlled and Uncontrolled Component
+Uncontrolled - Restaurant Component dodn't have comtrol on it's child components
+Q - Lifting State up
+
+Q - Props Drilling
+to pass data from parent to leaf node (Logedin User)
+
+Q - React Context
+Data which is use multiple places
+-> in class base components we don't have hooks.
+
+Q - React Context VS Redux
 
